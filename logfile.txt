@@ -1,0 +1,19 @@
+time="2023-06-11T09:05:24+07:00" level=info msg="Starting HTTP server on :8080"
+time="2023-06-11T09:05:42+07:00" level=debug msg=Thumv97@gmail.com
+time="2023-06-11T09:05:49+07:00" level=debug msg=Thumv997@gmail.com
+time="2023-06-11T09:05:59+07:00" level=debug msg=Thumv97@gmail.com
+time="2023-06-11T09:06:04+07:00" level=debug msg=Thumv97@gmail.com
+time="2023-06-11T09:06:36+07:00" level=info msg="Starting HTTP server on :8080"
+time="2023-06-11T09:06:43+07:00" level=debug msg=Thumv97@gmail.com
+time="2023-06-11T09:06:47+07:00" level=debug msg=Thumv997@gmail.com
+time="2023-06-11T09:06:51+07:00" level=debug msg=Thumv9397@gmail.com
+time="2023-06-11T09:06:52+07:00" level=debug msg=Thumv9397@gmail.com
+time="2023-06-11T09:21:08+07:00" level=info msg="Starting HTTP server on :8080"
+time="2023-06-11T09:22:35+07:00" level=debug msg="RowsAffected 0"
+time="2023-06-11T09:23:57+07:00" level=info msg="Starting HTTP server on :8080"
+time="2023-06-11T09:24:02+07:00" level=debug msg="RowsAffected 0"
+time="2023-06-11T09:24:11+07:00" level=debug msg="RowsAffected 0"
+time="2023-06-11T09:27:33+07:00" level=info msg="Starting HTTP server on :8080"
+time="2023-06-11T09:27:38+07:00" level=debug msg="RowsAffected 0"
+time="2023-06-11T09:27:38+07:00" level=debug msg="RowsAffected2 1"
+time="2023-06-11T09:29:12+07:00" level=info msg="Starting HTTP server on :8080"
