@@ -1,0 +1,11 @@
+FROM golang:1.20
+
+WORKDIR /app
+
+
+COPY . .
+RUN go build -v -o /usr/local/bin/app ./cmd/my_app/main.go
+
+EXPOSE 8080
+
+CMD ["app"]

@@ -1,0 +1,12 @@
+# PostgreSQL Configuration
+database:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: 123456
+  dbname: postgres
+
+# Server Configuration
+server:
+  port: ":8080"
+  timeout: 30
