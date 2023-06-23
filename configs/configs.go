@@ -24,7 +24,7 @@ type Config struct {
 
 func LoadConfig() *Config {
 	// Đường dẫn đến tệp tin database.yaml
-	filePath := "/Users/admin/Documents/Developer/GoLang/lore_project/configs/config.yaml"
+	filePath := "./configs/config.yaml"
 
 	// Read the config.yaml file
 	data, err := os.ReadFile(filePath)

@@ -18,6 +18,7 @@ type Server struct {
 	userService *services.UserService
 }
 
+
 // NewServer creates a new instance of the HTTP server.
 func NewServer() *Server {
 	// Initialize the Gin router
@@ -32,7 +33,13 @@ func NewServer() *Server {
 		logger.GetLogger().Errorf("Failed to connect to the database: %v", err)
 	}
 	// Create migrate table
-	db.AutoMigrate(&models.User{})
+	err = db.AutoMigrate(&models.User{})
+	if err != nil {
+		logger.GetLogger().Error("Lỗi migrate cơ sở dữ liệu:", err)
+	}
+
+
+
 
 	// Create a new instance of the user service
 	userService := services.NewUserService(db)
